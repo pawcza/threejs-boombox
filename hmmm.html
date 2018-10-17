@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>three.js webgl - lines - spheres</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            background-color: #000;
+            margin: 0px;
+            overflow: hidden;
+        }
+        a {
+            color:#0078ff;
+        }
+        #info {
+            position: absolute;
+            top: 10px; width: 100%;
+            color: #ffffff;
+            padding: 5px;
+            font-family: Monospace;
+            font-size: 13px;
+            text-align: center;
+            z-index:100;
+        }
+        a {
+            color: #ff0080;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #0080ff;
+        }
+    </style>
+</head>
+<body>
+
+<div id="info">
+    <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> - lines WebGL demo
+</div>
+
+<script src="js/three.min.js"></script>
+
+<script src="js/WebGL.js"></script>
+<script src="js/controls/FlyControls.js"></script>
+<script src="js/libs/stats.min.js"></script>
+<script src="js/palette.js"></script>
+
+<script>
+    if ( WEBGL.isWebGLAvailable() === false ) {
+        document.body.appendChild( WEBGL.getWebGLErrorMessage() );
+    }
+    var SCREEN_WIDTH = window.innerWidth,
+        SCREEN_HEIGHT = window.innerHeight,
+        r = 450,
+        mouseX = 0, mouseY = 0,
+        windowHalfX = window.innerWidth / 2,
+        windowHalfY = window.innerHeight / 2,
+        camera, scene, renderer,
+        controls, old = 0, control;
+    var clock = new THREE.Clock();
+
+    init();
+    animate();
+    function init() {
+        camera = new THREE.PerspectiveCamera( 80, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
+        camera.position.z = 10000;
+        scene = new THREE.Scene();
+        var fftSize = 1024;
+        var listener = new THREE.AudioListener();
+        var audio = new THREE.Audio(listener);
+        var mediaElement = new Audio('music/dafunk.mp3');
+        mediaElement.loop = true;
+        mediaElement.play();
+        audio.setMediaElementSource(mediaElement);
+        analyser = new THREE.AudioAnalyser(audio,fftSize);
+        var seq = palette('tol-sq', fftSize / 2 );
+        var dist, color, opa, c, parameters = [];
+        for(c = 0; c < fftSize / 2; ++c){
+            parameters.push([c, '#' + seq[c] + '', 0.26]);
+        }
+        var i, line, material, p;
+        var geometry = createGeometry();
+        for( i = 0; i < parameters.length; ++ i ) {
+            p = parameters[ i ];
+            material = new THREE.LineBasicMaterial( { color: p[ 1 ], opacity: p[ 2 ] } );
+            line = new THREE.LineSegments( geometry, material );
+            line.scale.x = line.scale.y = line.scale.z = p[ 0 ];
+            line.userData.originalScale = p[ 0 ];
+            line.rotation.y = Math.random() * Math.PI;
+            line.updateMatrix();
+            scene.add( line );
+        }
+
+        control = new function () {
+            this.rotSpeed = 0.005;
+            this.scale = 100;
+        };
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setPixelRatio( window.devicePixelRatio );
+        renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT );
+        document.body.appendChild( renderer.domElement );
+
+        controls = new THREE.FlyControls( camera );
+        controls.movementSpeed = 1000;
+        controls.domElement = renderer.domElement;
+        controls.rollSpeed = 2;
+        controls.autoForward = false;
+        controls.dragToLook = true;
+
+        document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+        document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+        document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+
+        //
+        window.addEventListener( 'resize', onWindowResize, false );
+        // test geometry swapability
+//        setInterval( function () {
+//            var geometry = createGeometry();
+//            scene.traverse( function ( object ) {
+//                if ( object.isLine ) {
+//                    object.geometry.dispose();
+//                    object.geometry = geometry;
+//                }
+//            } );
+//        }, 1000 );
+    }
+    function createGeometry() {
+        var geometry = new THREE.BufferGeometry();
+        var vertices = [];
+        var vertex = new THREE.Vector3();
+        for ( var i = 0; i < 700; i ++ ) {
+            vertex.x = Math.random() * 2 - 1;
+            vertex.y = Math.random() * 2 - 1;
+            vertex.z = Math.random() * 2 - 1;
+            vertex.normalize();
+            vertex.multiplyScalar( r );
+            vertices.push( vertex.x, vertex.y, vertex.z );
+            vertex.multiplyScalar( Math.random() * 0.1 + 1 );
+            vertices.push( vertex.x, vertex.y, vertex.z );
+        }
+        geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
+        return geometry;
+    }
+    function onWindowResize() {
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+    }
+    function onDocumentMouseMove( event ) {
+        mouseX = event.clientX - windowHalfX;
+        mouseY = event.clientY - windowHalfY;
+    }
+    function onDocumentTouchStart( event ) {
+        if ( event.touches.length > 1 ) {
+            event.preventDefault();
+            mouseX = event.touches[ 0 ].pageX - windowHalfX;
+            mouseY = event.touches[ 0 ].pageY - windowHalfY;
+        }
+    }
+    function onDocumentTouchMove( event ) {
+        if ( event.touches.length == 1 ) {
+            event.preventDefault();
+            mouseX = event.touches[ 0 ].pageX - windowHalfX;
+            mouseY = event.touches[ 0 ].pageY - windowHalfY;
+        }
+    }
+
+
+    function animate() {
+        requestAnimationFrame( animate );
+        render();
+    }
+    function render() {
+        var delta = clock.getDelta();
+        analyser.getFrequencyData();
+        camera.position.y += ( mouseY + 200 - camera.position.y ) * .05;
+        camera.position.x += ( -mouseX + 200 - camera.position.x ) * .05;
+        var x = camera.position.x;
+        var z = camera.position.z;
+//        camera.position.x = x * Math.cos(control.rotSpeed) + z * Math.sin(control.rotSpeed);
+//        camera.position.z = z * Math.cos(control.rotSpeed) - x * Math.sin(control.rotSpeed);
+        camera.lookAt( scene.position ); // the origin
+        var loudness = analyser.data.reduce((a, b) => a + b, 0) / (analyser.data.length * 256);
+
+        controls.update( delta );
+        renderer.render( scene, camera );
+
+        var isZooming = true;
+        if(loudness > 0.2){
+            var step = loudness * 50;
+            if (camera.position.z > 0 && isZooming){
+                camera.position.z -= step;
+            } else {
+                isZooming = false;
+            }
+
+            if (camera.position.z < 10000 && !isZooming){
+                camera.position.z += step;
+            }
+        }
+        console.log(camera.position);
+        for ( var i = 0; i < scene.children.length; i ++ ) {
+            var object = scene.children[ i ];
+            if ( object.isLine ){
+                var scale = (analyser.data[i] / 256) + i / 16;
+                object.scale.x = object.scale.y = object.scale.z = scale;
+            }
+        }
+    }
+</script>

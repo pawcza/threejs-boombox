@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/hmmm.html" line="207" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e8f0c8-ec0d-4bde-aba8-4e860255a9bc" name="Default" comment="" />
+    <list default="true" id="30e8f0c8-ec0d-4bde-aba8-4e860255a9bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hmmm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/WebGL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/palette.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,21 +22,91 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../three-boombox/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="361" column="62" lean-forward="true" selection-start-line="361" selection-start-column="62" selection-end-line="361" selection-end-column="62" />
+            <state relative-caret-position="324">
+              <caret line="306" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="429" selection-end-column="7" />
+              <folding>
+                <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boom.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="313" column="68" lean-forward="true" selection-start-line="313" selection-start-column="68" selection-end-line="313" selection-end-column="68" />
+              <folding>
+                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geometry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../three-boombox/js/geometry.js">
+      <file leaf-file-name="hmmm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hmmm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="272">
+              <caret line="195" column="20" lean-forward="false" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="palette.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/palette.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1886">
+              <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlyControls.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controls/FlyControls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebGL.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/WebGL.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2139">
+              <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+              <folding>
+                <marker date="1539365716585" expanded="true" signature="1284:1294" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geometry.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/geometry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30958">
               <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
               <folding />
             </state>
@@ -35,16 +117,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>geometry</find>
       <find>geom</find>
+      <find>texture2d</find>
+      <find>.php</find>
+      <find>echo</find>
+      <find>mesh</find>
+      <find>material</find>
+      <find>tol-sq</find>
+      <find>rainbow</find>
+      <find>console.log</find>
+      <find>scene</find>
+      <find>geometry</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/js/geometry.js" />
+        <option value="G:/Downloads/htaccess" />
+        <option value="G:/Downloads/koncerty.php" />
+        <option value="G:/Downloads/szukaj.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../three-boombox/js/geometry.js" />
-        <option value="$PROJECT_DIR$/../three-boombox/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/WebGL.js" />
+        <option value="$PROJECT_DIR$/new.html" />
+        <option value="$PROJECT_DIR$/js/palette.js" />
+        <option value="$PROJECT_DIR$/hmmm.html" />
+        <option value="$PROJECT_DIR$/boom.html" />
       </list>
     </option>
   </component>
@@ -54,13 +156,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1402" />
-    <option name="y" value="-20" />
+    <option name="x" value="-1698" />
+    <option name="y" value="170" />
     <option name="width" value="1132" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -98,7 +204,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,11 +224,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.hmmm.html">
+    <configuration name="boom.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/three boombox/boom.html" />
+    <configuration name="hmmm.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/three boombox/hmmm.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/three boombox/index.html" />
+    <configuration name="new.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/three boombox/new.html" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.hmmm.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.boom.html" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.hmmm.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.boom.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -136,32 +255,41 @@
       <option name="presentableId" value="Default" />
       <updated>1536860256606</updated>
       <workItem from="1536860258112" duration="16587000" />
+      <workItem from="1536952225013" duration="5873000" />
+      <workItem from="1537895991729" duration="4070000" />
+      <workItem from="1537998105253" duration="624000" />
+      <workItem from="1538861982371" duration="559000" />
+      <workItem from="1538862587299" duration="94000" />
+      <workItem from="1538862693993" duration="599000" />
+      <workItem from="1539280771847" duration="10137000" />
+      <workItem from="1539331982953" duration="26980000" />
+      <workItem from="1539711532251" duration="18346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16587000" />
+    <option name="totallyTimeSpent" value="83869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10074627" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46629834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -176,23 +304,243 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../three-boombox/js/geometry.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="4071">
+          <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controls/FlyControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/palette.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/WebGL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+          <folding>
+            <marker date="1539365716585" expanded="true" signature="1284:1294" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
           <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../three-boombox/js/dat.gui.min.js">
+    <entry file="file://$PROJECT_DIR$/hmmm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="4324">
+          <caret line="188" column="41" lean-forward="true" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../three-boombox/js/three.min.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9361">
+          <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geometry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30958">
+          <caret line="1346" column="9" lean-forward="false" selection-start-line="1346" selection-start-column="9" selection-end-line="1346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dat.gui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="14" column="311" lean-forward="false" selection-start-line="14" selection-start-column="311" selection-end-line="14" selection-end-column="311" />
@@ -200,11 +548,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../three-boombox/index.html">
+    <entry file="file://G:/Downloads/htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="361" column="62" lean-forward="true" selection-start-line="361" selection-start-column="62" selection-end-line="361" selection-end-column="62" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Downloads/szukaj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Downloads/koncerty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="574" column="5" lean-forward="true" selection-start-line="574" selection-start-column="5" selection-end-line="574" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/WebGL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+          <folding>
+            <marker date="1539365716585" expanded="true" signature="1284:1294" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controls/FlyControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/palette.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hmmm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="195" column="20" lean-forward="false" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="306" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="429" selection-end-column="7" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="313" column="68" lean-forward="true" selection-start-line="313" selection-start-column="68" selection-end-line="313" selection-end-column="68" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
