@@ -312,7 +312,8 @@
     var scene = new THREE.Scene();
     scene.add( new THREE.AmbientLight( 0x111122 ) );
 //    scene.add(new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 ));
-    startButton.addEventListener('click',init);
+    //startButton.addEventListener('click',init);
+    document.addEventListener('DOMContentLoaded',init);
     window.scene = scene;
     var pointLight, pointLight2;
 
@@ -326,8 +327,6 @@
         // Remove overlay
         var overlay = document.getElementById('overlay');
         overlay.remove();
-
-
 
         // Declare camera
         var camera = new THREE.PerspectiveCamera(
@@ -442,18 +441,18 @@
         }));
         speakerRight.add(stand);
 
-        var points = [];
-        for ( var i = 0; i < 10; i ++ ) {
-            points.push( new THREE.Vector2( Math.sin( i * 0.2 ) * 6 + 4, ( i - 9 ) ) );
-        }
-        var pointGeometry = new THREE.LatheGeometry( points );
-        var cone = new THREE.Mesh( pointGeometry, new THREE.MeshToonMaterial({
-            color: 0x222222,
-            specular: 0x50505,
-            side: THREE.DoubleSide
-        }) );
-        speakerRight.add(cone);
-        cone.rotation.x = Math.PI / 2;
+        // var points = [];
+        // for ( var i = 0; i < 10; i ++ ) {
+        //     points.push( new THREE.Vector2( Math.sin( i * 0.2 ) * 6 + 4, ( i - 9 ) ) );
+        // }
+        // var pointGeometry = new THREE.LatheGeometry( points );
+        // var cone = new THREE.Mesh( pointGeometry, new THREE.MeshToonMaterial({
+        //     color: 0x222222,
+        //     specular: 0x50505,
+        //     side: THREE.DoubleSide
+        // }) );
+        // speakerRight.add(cone);
+        // cone.rotation.x = Math.PI / 2;
 
         var bass = new THREE.Mesh(
             new THREE.SphereGeometry(4, 32, 32),
@@ -473,9 +472,8 @@
         var box = new THREE.Mesh(
             new THREE.BoxGeometry( 64, 32, 24 ),
             new THREE.MeshToonMaterial({
-                color: new THREE.Color( Math.sin( i * 0.5 ) * 0.5 + 0.5, Math.cos( i * 1.5 ) * 0.5 + 0.5, Math.sin( i * 4.5 + 0 ) * 0.5 + 0.5 ),
-                side: THREE.DoubleSide,
-                wireframe: true
+                color: new THREE.Color( Math.sin( 0.5 ) * 0.5 + 0.5, Math.cos( 1.5 ) * 0.5 + 0.5, Math.sin( 4.5 + 0 ) * 0.5 + 0.5 ),
+                side: THREE.DoubleSide
             })
         );
         box.position.z = -12;
